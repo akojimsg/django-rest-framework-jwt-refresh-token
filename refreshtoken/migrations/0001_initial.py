@@ -27,7 +27,6 @@ class Migration(migrations.Migration):
             options={
                 'db_table': 'refresh_token',
             },
-
         ),
         migrations.AlterUniqueTogether(
             name='refreshtoken',
