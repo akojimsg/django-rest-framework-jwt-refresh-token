@@ -30,6 +30,7 @@ class RefreshToken(models.Model):
 
     class Meta:
         unique_together = ('user', 'app')
+        db_table = 'refresh_token'
 
     def save(self, *args, **kwargs):
         if not self.key:

@@ -29,7 +29,7 @@ def find_version(*parts):
     return finder.version
 
 
-name = 'djangorestframework-jwt-refresh-token'
+name = 'dd-djangorestframework-jwt-refresh-token'
 package = 'refreshtoken'
 version = find_version(package, '__init__.py')
 description = 'Long Refresh Tokens for JSON Web Token based authentication'
